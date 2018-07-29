@@ -3,12 +3,13 @@ package com.elife.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.elife.modal.User;
 import com.elife.services.UserService;
 
-@org.springframework.web.bind.annotation.RestController
-public class RestController {
+@RestController
+public class UsingRestController {
 	
 	@Autowired
 	private UserService userService;

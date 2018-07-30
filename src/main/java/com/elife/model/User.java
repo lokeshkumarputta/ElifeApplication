@@ -1,4 +1,4 @@
-package com.elife.modal;
+package com.elife.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

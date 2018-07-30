@@ -7,7 +7,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Service;
 
-import com.elife.modal.User;
+import com.elife.model.User;
 import com.elife.repository.UserRepository;
 
 @Service

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.elife.modal.User;
+import com.elife.model.User;
 import com.elife.services.UserService;
 
 @Controller

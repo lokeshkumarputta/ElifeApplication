@@ -2,7 +2,7 @@ package com.elife.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.elife.modal.User;
+import com.elife.model.User;
 
 public interface UserRepository extends CrudRepository<User, Integer> {	
 	

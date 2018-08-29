@@ -6,8 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 @Entity
 @Table(name="mytable")
+@Data
 public class User {
 	
 	@Id
@@ -32,7 +35,7 @@ public class User {
 		this.age = age;
 		this.password = password;
 	}
-	public int getId() {
+	/*public int getId() {
 		return id;
 	}
 	public void setId(int id) {
@@ -67,7 +70,7 @@ public class User {
 	}
 	public void setPassword(String password) {
 		this.password = password;
-	}
+	}*/
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", username=" + username + ", firstname=" + firstname + ", lastname=" + lastname
